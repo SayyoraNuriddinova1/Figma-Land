@@ -654,4 +654,9 @@ img {
   .foot-ul {
     gap: 15px;
   }
+}
+@media (min-width: 1220px) {
+  .container {
+    width: 1200px;
+  }
 }/*# sourceMappingURL=main.css.map */
