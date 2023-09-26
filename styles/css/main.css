@@ -552,4 +552,10 @@ img {
   padding-block: 3rem;
 }
 
-/* utils end *//*# sourceMappingURL=main.css.map */
+/* utils end */
+@media (min-width: 520px) {
+  .container {
+    width: 500px;
+    padding: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
