@@ -553,6 +553,21 @@ img {
 }
 
 /* utils end */
+#gallery {
+  background-color: black;
+  color: white;
+  height: 120vh;
+}
+
+.button {
+  display: flex;
+  height: 52px;
+  padding: 10px 30px;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+}
+
 @media (min-width: 520px) {
   .container {
     width: 500px;
