@@ -1,15 +1,100 @@
 
-.button {
-    display: flex;
+.btn {
+    
     height: 52px;
-    padding: 10px 30px;
-    align-items: center;
+    padding: 15px 30px;
+    
     border: 1px solid white;
     color: white;
+}
+.btn1 {
+    height: 52px;
+    padding: 20px 36px;
+    background-color: #4452FE;
+    color: white;
+}
+.main-text {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+.main-paragraph {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
 }
 @media (min-width:520px) {
     .container {
         width: 500px;
         padding: 0;
+    }
+    .partner-logos {
+        gap: 50px;
+        flex-wrap: wrap;
+        width: 360px;
+        height: 240px;
+        // border: 1px solid white;
+    }
+    .btn-more {
+        margin-bottom: 20%;
+    }
+    .btn-partner {
+        margin-bottom: 10%;
+    }
+    .testimonial-blocks {
+        gap: 23px;
+    }
+    .testimonial-block {
+        width: 352px;
+        padding: 40px;
+        gap: 30px;
+        border-radius: 10px;
+        border: 1px solid #565656;
+    }
+    .testimonial-text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+    }
+    .testimonial-avatar {
+        gap: 20px;
+    }
+    .ul-text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+    }
+    .ul-text li {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        letter-spacing: 0.2px;
+    }
+    .footer-items {
+        gap: 40px;
+        padding-inline: 90px;
+        margin-top: 30%;
+        margin-bottom: 25%;
+    }
+    .footer-item {
+        gap: 20px;
+    }
+    .foot-icons {
+        gap: 30px;
+    }
+    .foot-icon {
+        gap: 25px;
+    }
+    .foot-ul {
+        gap: 15px;
     }
 }
