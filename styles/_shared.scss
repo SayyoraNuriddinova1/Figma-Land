@@ -45,17 +45,13 @@ body {
   background-color: black;
   color: white;
 }
-.container {
+.container1 {
   width: 100%;
   margin: 0 auto;
   
 }
 
-.container-fluid {
-  width: 100%;
-  padding-inline: 3rem;
-  padding-block: 2rem;
-}
+
 
 .flex {
   display: flex;
@@ -103,6 +99,9 @@ body {
 }
 .flex-column {
   flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
 }
 .gap-0 {
   gap: 0;
