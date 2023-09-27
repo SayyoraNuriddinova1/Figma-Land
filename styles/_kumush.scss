@@ -28,9 +28,12 @@
     letter-spacing: 0.2px;
 }
 @media (min-width:520px) {
-    .container {
+    .big-container {
         width: 500px;
         padding: 0;
+    }
+    .gallery-blocks {
+        flex-direction: column;
     }
     .partner-logos {
         gap: 50px;
@@ -47,6 +50,7 @@
     }
     .testimonial-blocks {
         gap: 23px;
+        flex-direction: column;
     }
     .testimonial-block {
         width: 352px;
@@ -81,9 +85,10 @@
     }
     .footer-items {
         gap: 40px;
-        padding-inline: 90px;
+        padding-inline: 100px;
         margin-top: 30%;
         margin-bottom: 25%;
+        flex-direction: column;
     }
     .footer-item {
         gap: 20px;
@@ -97,19 +102,14 @@
     .foot-ul {
         gap: 15px;
     }
-    // .extra-img {
-    //     display: none;
-    // }
+    .extra-img {
+        display: none;
+    }
+    .line {
+        display: block;
+    }
+    .line3 {
+        display: none;
+    }
 }
 
-@media (min-width:1220px) {
-    .container {
-        width: 1200px;
-    }
-    // .extra-img {
-    //     display: block;
-    // }
-    // .gallery-img {
-    //     display: none;
-    // }
-}
