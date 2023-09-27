@@ -97,10 +97,19 @@
     .foot-ul {
         gap: 15px;
     }
+    // .extra-img {
+    //     display: none;
+    // }
 }
 
 @media (min-width:1220px) {
     .container {
         width: 1200px;
     }
+    // .extra-img {
+    //     display: block;
+    // }
+    // .gallery-img {
+    //     display: none;
+    // }
 }
